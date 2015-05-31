@@ -1,0 +1,140 @@
+﻿/*@import "compass/compass";*/
+@import "../compass/compass/css3/animation";
+/*@import "../Styles/Sass/mixin";*/
+
+/// DEFINE COMMON VARIABLES
+/// ==== COLORS
+$color-dark-blue: #154890;
+$color-light-blue: #6699FF;
+$color-dark-gray: #CDBFAC;
+$color-light-gray: #E1D4C0;
+$color-white-gray: #F5EDE3;
+$color-orange: #FF6600;
+$color-black: #000;
+$color-white: #fff;
+
+/// ==== IMAGES
+$url-background-image: url('../../Images/bg.png');
+
+/// ==== FONTS
+$font-pacifico: 'Pacifico', cursive;
+$font-montserrat: 'Montserrat', sans-serif;
+$font-patua: 'Patua One', cursive;
+
+/// ==== ENGINES
+$list-engine: -webkit, -moz, -ms, -o;
+
+/*@mixin keyframes($animation-name) {
+    @-webkit-keyframes
+    $animation-name
+
+{
+    @content;
+}
+
+@-moz-keyframes
+$animation-name
+
+{
+    @content;
+}
+
+@-o-keyframes
+$animation-name
+
+{
+    @content;
+}
+
+@keyframes
+$animation-name
+
+{
+    @content;
+}
+
+}*/
+
+@include keyframes(colorchanger) {
+    0% {
+        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange);
+    }
+
+    10% {
+        background: linear-gradient(to right, $color-orange, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray);
+    }
+
+    20% {
+        background: linear-gradient(to right, $color-dark-gray, $color-orange, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white);
+    }
+    30% {
+        background: linear-gradient(to right, $color-white, $color-dark-gray, $color-orange, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white);
+    }
+
+    40% {
+        background: linear-gradient(to right, $color-white, $color-white, $color-dark-gray, $color-orange, $color-white, $color-white, $color-white, $color-white, $color-white);
+    }
+
+    50% {
+        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange, $color-white, $color-white, $color-white, $color-white);
+    }
+
+    60% {
+        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange, $color-white, $color-white, $color-white);
+    }
+
+    70% {
+        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange, $color-white, $color-white);
+    }
+
+    80% {
+        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange, $color-white);
+    }
+
+    90% {
+        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange);
+    }
+
+    /*100% {
+        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange);
+    }*/
+}
+
+body {
+}
+
+header {
+    background-color: $color-dark-blue;
+    height: 500px;
+}
+
+.header-line {
+    height: 3px;
+//    -moz-animation-name: colorchange;
+//    -o-animation-name: colorchange;
+//    -webkit-animation-name: colorchange;
+//    animation-name: colorchange;
+//    -moz-animation-duration: 0.5s;
+//    -o-animation-duration: 0.5s;
+//    -webkit-animation-duration: 0.5s;
+//    animation-duration: 0.5s;
+//    -moz-animation-iteration-count: infinite;
+//    -o-animation-iteration-count: infinite;
+//    -webkit-animation-iteration-count: infinite;
+//    animation-iteration-count: infinite;
+//    -moz-animation-timing-function: ease-in-out;
+//    -o-animation-timing-function: ease-in-out;
+//    -webkit-animation-timing-function: ease-in-out;
+//    animation-timing-function: ease-in-out;
+    /*-moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-direction: reverse;
+    -o-animation-direction: reverse;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;*/
+    /*@include animation-name(colorchange);
+    @include animation-duration(10s);
+    @include animation-iteration-count(infinite);*/
+}

@@ -1,0 +1,187 @@
+﻿/*@import "compass/compass";
+@import "compass/compass/css3/animation";*/
+/*@mixin keyframes($animation-name) {
+    @-webkit-keyframes
+    $animation-name
+
+{
+    @content;
+}
+
+@-moz-keyframes
+$animation-name
+
+{
+    @content;
+}
+
+@-o-keyframes
+$animation-name
+
+{
+    @content;
+}
+
+@keyframes
+$animation-name
+
+{
+    @content;
+}
+
+}*/
+@-webkit-keyframes colorchanger {
+  0% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+
+  10% {
+    background: linear-gradient(to right, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); }
+
+  20% {
+    background: linear-gradient(to right, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff); }
+
+  30% {
+    background: linear-gradient(to right, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff); }
+
+  40% {
+    background: linear-gradient(to right, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff); }
+
+  50% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff); }
+
+  60% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff); }
+
+  70% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff); }
+
+  80% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff); }
+
+  90% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+
+  100% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); } }
+
+@-moz-keyframes colorchanger {
+  0% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+
+  10% {
+    background: linear-gradient(to right, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); }
+
+  20% {
+    background: linear-gradient(to right, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff); }
+
+  30% {
+    background: linear-gradient(to right, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff); }
+
+  40% {
+    background: linear-gradient(to right, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff); }
+
+  50% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff); }
+
+  60% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff); }
+
+  70% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff); }
+
+  80% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff); }
+
+  90% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+
+  100% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); } }
+
+@-o-keyframes colorchanger {
+  0% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+
+  10% {
+    background: linear-gradient(to right, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); }
+
+  20% {
+    background: linear-gradient(to right, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff); }
+
+  30% {
+    background: linear-gradient(to right, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff); }
+
+  40% {
+    background: linear-gradient(to right, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff); }
+
+  50% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff); }
+
+  60% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff); }
+
+  70% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff); }
+
+  80% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff); }
+
+  90% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+
+  100% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); } }
+
+@keyframes colorchanger {
+  0% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+
+  10% {
+    background: linear-gradient(to right, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); }
+
+  20% {
+    background: linear-gradient(to right, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff); }
+
+  30% {
+    background: linear-gradient(to right, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff); }
+
+  40% {
+    background: linear-gradient(to right, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff); }
+
+  50% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff); }
+
+  60% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff); }
+
+  70% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff); }
+
+  80% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff); }
+
+  90% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+
+  100% {
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); } }
+
+header {
+  background-color: #154890;
+  height: 500px; }
+
+.header-line {
+  height: 3px;
+  /*-moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -moz-animation-direction: reverse;
+    -o-animation-direction: reverse;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;*/
+  /*@include animation-name(colorchange);
+    @include animation-duration(10s);
+    @include animation-iteration-count(infinite);*/ }
+
+/*# sourceMappingURL=mystyle.css.map */
