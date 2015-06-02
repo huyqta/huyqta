@@ -1,0 +1,82 @@
+﻿/* Create by HuyQTA - 06-2015 */
+@import '../Constant/support';
+
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes
+    $animation-name
+
+    {
+        @content;
+    }
+
+    @-moz-keyframes
+    $animation-name
+
+    {
+        @content;
+    }
+
+    @-o-keyframes
+    $animation-name
+
+    {
+        @content;
+    }
+
+    @keyframes
+    $animation-name
+
+    {
+        @content;
+    }
+
+}
+
+@mixin animation($animation-name, $animation-duration, $animation-timing-function, $animation-delay, $animation-iteration-count, $animation-direction) {
+    @each $engine in $list-engine {
+        #{$engine}-animation: $animation-name $animation-duration $animation-timing-function $animation-delay $animation-iteration-count $animation-direction;
+    }
+    animation: $animation-name $animation-duration $animation-timing-function $animation-delay $animation-iteration-count $animation-direction;
+}
+
+@mixin animation-name($animation-name) {
+    @each $engine in $list-engine {
+        #{$engine}-animation-name: $animation-name;
+    }
+    animation-name: $animation-name;
+}
+
+@mixin animation-duration($animation-duration) {
+    @each $engine in $list-engine {
+        #{$engine}-animation-duration: $animation-duration;
+    }
+    animation-duration: $animation-duration;
+}
+
+@mixin animation-timing-function($animation-timing-function) {
+    @each $engine in $list-engine {
+        #{$engine}-animation-timing-function: $animation-timing-function;
+    }
+    animation-timing-function: $animation-timing-function;
+}
+
+@mixin animation-delay($animation-delay) {
+    @each $engine in $list-engine {
+        #{$engine}-animation-delay: $animation-delay;
+    }
+    animation-delay: $animation-delay;
+}
+
+@mixin animation-iteration-count($animation-iteration-count) {
+    @each $engine in $list-engine {
+        #{$engine}-animation-iteration-count: $animation-iteration-count;
+    }
+    animation-iteration-count: $animation-iteration-count;
+}
+
+@mixin animation-direction($animation-direction) {
+    @each $engine in $list-engine {
+        #{$engine}-animation-direction: $animation-direction;
+    }
+    animation-direction: $animation-direction;
+}
