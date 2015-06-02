@@ -1,36 +1,11 @@
-﻿/*@import "compass/compass";
-@import "compass/compass/css3/animation";*/
-/*@mixin keyframes($animation-name) {
-    @-webkit-keyframes
-    $animation-name
-
-{
-    @content;
-}
-
-@-moz-keyframes
-$animation-name
-
-{
-    @content;
-}
-
-@-o-keyframes
-$animation-name
-
-{
-    @content;
-}
-
-@keyframes
-$animation-name
-
-{
-    @content;
-}
-
-}*/
+﻿/*@import "compass/compass";*/
+/*@import "../compass/compass/css3/animation";*/
+/* Create by HuyQTA - 06-2015 */
+/* Create by HuyQTA - 06-2015 */
 @-webkit-keyframes colorchanger {
+  /*100% {
+        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange);
+    }*/
   0% {
     background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
 
@@ -59,12 +34,12 @@ $animation-name
     background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff); }
 
   90% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
-
-  100% {
     background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); } }
 
 @-moz-keyframes colorchanger {
+  /*100% {
+        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange);
+    }*/
   0% {
     background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
 
@@ -93,12 +68,12 @@ $animation-name
     background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff); }
 
   90% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
-
-  100% {
     background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); } }
 
 @-o-keyframes colorchanger {
+  /*100% {
+        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange);
+    }*/
   0% {
     background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
 
@@ -127,12 +102,12 @@ $animation-name
     background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff); }
 
   90% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
-
-  100% {
     background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); } }
 
 @keyframes colorchanger {
+  /*100% {
+        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange);
+    }*/
   0% {
     background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
 
@@ -161,10 +136,10 @@ $animation-name
     background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff); }
 
   90% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
-
-  100% {
     background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); } }
+
+html, body {
+  font-family: 'Montserrat', sans-serif; }
 
 header {
   background-color: #154890;
@@ -172,16 +147,38 @@ header {
 
 .header-line {
   height: 3px;
-  /*-moz-animation-fill-mode: both;
-    -o-animation-fill-mode: both;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -moz-animation-direction: reverse;
-    -o-animation-direction: reverse;
-    -webkit-animation-direction: reverse;
-    animation-direction: reverse;*/
-  /*@include animation-name(colorchange);
-    @include animation-duration(10s);
-    @include animation-iteration-count(infinite);*/ }
+  -webkit-animation-name: colorchanger;
+  -moz-animation-name: colorchanger;
+  -ms-animation-name: colorchanger;
+  -o-animation-name: colorchanger;
+  animation-name: colorchanger;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -ms-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  -o-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+  -moz-animation-direction: alternate;
+  -ms-animation-direction: alternate;
+  -o-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -ms-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
+
+.h-menu-header {
+  color: #6699FF; }
 
 /*# sourceMappingURL=mystyle.css.map */
