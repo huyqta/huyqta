@@ -69,6 +69,7 @@ $font-patua: 'Patua One', cursive;
 
 html, body {
     font-family: $font-montserrat;
+    -webkit-font-smoothing: antialiased;
 }
 
 header {
@@ -93,7 +94,7 @@ header {
     max-height: 50px;
 }
 
-.h-subject{
+.h-subject {
     color: $color-orange;
     font-family: $font-pacifico;
     font-size: 24px;
@@ -112,7 +113,6 @@ header {
     ul li {
         cursor: pointer;
         color: $color-light-blue;
-        display: table-cell;
         vertical-align: middle;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
@@ -121,7 +121,12 @@ header {
     }
 }
 
-.h-menu-item:hover {
-    border-bottom: 3px solid $color-white;
-    color: $color-white;
+.h-menu-item u li {
+    padding: 0 10px;
+    border: 3px solid $color-dark-blue;
+
+    :hover {
+        border-bottom: 3px solid $color-white;
+        color: $color-white;
+    }
 }

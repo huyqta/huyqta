@@ -139,7 +139,8 @@
     background: linear-gradient(to right, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); } }
 
 html, body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased; }
 
 header {
   background: #154890;
@@ -201,15 +202,17 @@ header {
   .h-menu-header ul li {
     cursor: pointer;
     color: #6699FF;
-    display: table-cell;
     vertical-align: middle;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
 
-.h-menu-item:hover {
-  border-bottom: 3px solid #fff;
-  color: #fff; }
+.h-menu-item u li {
+  padding: 0 10px;
+  border: 3px solid #154890; }
+  .h-menu-item u li :hover {
+    border-bottom: 3px solid #fff;
+    color: #fff; }
 
 /*# sourceMappingURL=mystyle.css.map */
