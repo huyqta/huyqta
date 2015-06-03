@@ -3,146 +3,148 @@
 /* Create by HuyQTA - 06-2015 */
 /* Create by HuyQTA - 06-2015 */
 @-webkit-keyframes colorchanger {
-  /*100% {
-        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange);
-    }*/
   0% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+    background: linear-gradient(to right, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
 
   10% {
-    background: linear-gradient(to right, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); }
+    background: linear-gradient(to right, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); }
 
   20% {
-    background: linear-gradient(to right, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff); }
 
   30% {
-    background: linear-gradient(to right, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff); }
 
   40% {
-    background: linear-gradient(to right, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff); }
 
   50% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff); }
 
   60% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff); }
 
   70% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff); }
 
   80% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC); }
 
   90% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); } }
+    background: linear-gradient(to right, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+
+  100% {
+    background: linear-gradient(to right, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); } }
 
 @-moz-keyframes colorchanger {
-  /*100% {
-        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange);
-    }*/
   0% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+    background: linear-gradient(to right, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
 
   10% {
-    background: linear-gradient(to right, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); }
+    background: linear-gradient(to right, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); }
 
   20% {
-    background: linear-gradient(to right, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff); }
 
   30% {
-    background: linear-gradient(to right, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff); }
 
   40% {
-    background: linear-gradient(to right, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff); }
 
   50% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff); }
 
   60% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff); }
 
   70% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff); }
 
   80% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC); }
 
   90% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); } }
+    background: linear-gradient(to right, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+
+  100% {
+    background: linear-gradient(to right, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); } }
 
 @-o-keyframes colorchanger {
-  /*100% {
-        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange);
-    }*/
   0% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+    background: linear-gradient(to right, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
 
   10% {
-    background: linear-gradient(to right, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); }
+    background: linear-gradient(to right, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); }
 
   20% {
-    background: linear-gradient(to right, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff); }
 
   30% {
-    background: linear-gradient(to right, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff); }
 
   40% {
-    background: linear-gradient(to right, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff); }
 
   50% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff); }
 
   60% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff); }
 
   70% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff); }
 
   80% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC); }
 
   90% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); } }
+    background: linear-gradient(to right, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+
+  100% {
+    background: linear-gradient(to right, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); } }
 
 @keyframes colorchanger {
-  /*100% {
-        background: linear-gradient(to right, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-white, $color-dark-gray, $color-orange);
-    }*/
   0% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+    background: linear-gradient(to right, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
 
   10% {
-    background: linear-gradient(to right, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); }
+    background: linear-gradient(to right, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); }
 
   20% {
-    background: linear-gradient(to right, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff); }
 
   30% {
-    background: linear-gradient(to right, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff); }
 
   40% {
-    background: linear-gradient(to right, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff); }
 
   50% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff, #fff); }
 
   60% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff, #fff); }
 
   70% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC, #fff); }
 
   80% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #fff); }
+    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600, #CDBFAC); }
 
   90% {
-    background: linear-gradient(to right, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); } }
+    background: linear-gradient(to right, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC, #FF6600); }
+
+  100% {
+    background: linear-gradient(to right, #FF6600, #CDBFAC, #fff, #fff, #fff, #fff, #fff, #fff, #CDBFAC); } }
 
 html, body {
   font-family: 'Montserrat', sans-serif; }
 
 header {
-  background-color: #154890;
+  background: #154890;
+  /*background: url('../../Images/header-bg.jpg') no-repeat center center fixed;*/
+  background-size: cover;
   height: 500px; }
 
 .header-line {
@@ -152,11 +154,11 @@ header {
   -ms-animation-name: colorchanger;
   -o-animation-name: colorchanger;
   animation-name: colorchanger;
-  -webkit-animation-duration: 0.5s;
-  -moz-animation-duration: 0.5s;
-  -ms-animation-duration: 0.5s;
-  -o-animation-duration: 0.5s;
-  animation-duration: 0.5s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-iteration-count: infinite;
   -ms-animation-iteration-count: infinite;
@@ -178,7 +180,36 @@ header {
   -o-animation-delay: 0.5s;
   animation-delay: 0.5s; }
 
+.h-logo {
+  margin: 15px 0;
+  max-height: 50px; }
+
+.h-subject {
+  color: #FF6600;
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+  /*text-shadow: 0 0 35px $color-white;
+    -webkit-text-stroke: $color-white 2px;*/
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; }
+
 .h-menu-header {
-  color: #6699FF; }
+  margin-top: 15px;
+  color: #154890;
+  font-family: 'Patua One', cursive;
+  font-size: 18px;
+  line-height: 50px; }
+  .h-menu-header ul li {
+    cursor: pointer;
+    color: #6699FF;
+    display: table-cell;
+    vertical-align: middle;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+
+.h-menu-item:hover {
+  border-bottom: 3px solid #fff;
+  color: #fff; }
 
 /*# sourceMappingURL=mystyle.css.map */

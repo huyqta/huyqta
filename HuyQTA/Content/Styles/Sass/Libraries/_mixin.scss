@@ -80,3 +80,25 @@
     }
     animation-direction: $animation-direction;
 }
+
+@mixin margin-center-horizontal{
+    margin: 0 auto;
+}
+
+@mixin margin-center-vertical{
+    margin: auto 0;
+}
+
+@mixin transition($name, $duration, $timing-function){
+    @each $engine in $list-engine {
+        #{$engine}-transition: $name $duration $timing-function;
+    }
+    transition: $name $duration $timing-function;
+}
+
+@mixin transform($transform-data){
+    @each $engine in $list-engine {
+        #{$engine}-transform: $transform-data;
+    }
+    transform: $transform-data;
+}
